@@ -3,7 +3,7 @@ package snmptrapper
 import (
 	"time"
 
-	types "github.com/chrusty/prometheus_webhook_snmptrapper/types"
+	types "github.com/mrunge/prometheus_webhook_snmptrapper/types"
 
 	logrus "github.com/Sirupsen/logrus"
 	snmpgo "github.com/k-sone/snmpgo"

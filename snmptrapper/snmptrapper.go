@@ -5,8 +5,8 @@ import (
 	"os/signal"
 	"sync"
 
-	config "github.com/chrusty/prometheus_webhook_snmptrapper/config"
-	types "github.com/chrusty/prometheus_webhook_snmptrapper/types"
+	config "github.com/mrunge/prometheus_webhook_snmptrapper/config"
+	types "github.com/mrunge/prometheus_webhook_snmptrapper/types"
 
 	logrus "github.com/Sirupsen/logrus"
 	snmpgo "github.com/k-sone/snmpgo"
