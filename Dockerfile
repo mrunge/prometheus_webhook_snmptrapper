@@ -6,8 +6,8 @@ USER root
 
 RUN dnf -y update
 RUN dnf -y install golang && dnf clean all
-RUN go get github.com/chrusty/prometheus_webhook_snmptrapper
-RUN go build github.com/chrusty/prometheus_webhook_snmptrapper
+RUN go get github.com/mrunge/prometheus_webhook_snmptrapper
+RUN go build github.com/mrunge/prometheus_webhook_snmptrapper
 
 ENV SNMP_COMMUNITY="public"
 ENV SNMP_RETRIES=1
